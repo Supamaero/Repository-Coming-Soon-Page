@@ -1,0 +1,76 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.overlay{
+height:100vh;
+width:100%;
+background-color: rgba(0, 0, 0, 0.15);
+z-index:2 ;
+position: absolute;
+}
+
+.main_container{
+    
+    height:100vh;
+    width:100%;
+    background-color: #d2d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("repository1.gif");
+    background-repeat: no-repeat;
+background-size: cover;
+
+    position: fixed;
+    z-index: 1;
+}
+
+
+h1{
+    display: flex;
+    font-size:50px;
+    margin-bottom: 20px;
+    
+}
+
+p{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.subcription{
+    margin-bottom: 20px;
+
+}
+
+.email{
+    height: 30px;
+    width: 194px;
+    background-color: transparent;
+    border:2px solid white;
+}
+
+::placeholder{
+    color: white;
+    padding-left:20px;
+}
+
+button{
+    height:30px;
+    width: 71px;
+    background-color: #00618C;
+    border: none;
+    p
+}
+
+.social{
+    height:24px;
+    width:24px;
+}
